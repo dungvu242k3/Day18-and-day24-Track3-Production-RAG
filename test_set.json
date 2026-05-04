@@ -1,3 +1,22 @@
 [
-  {"question": "hihi cả nhà tự tạo testset bằng cơm nhé", "ground_truth": "Không kịp tạo luôn"},
+  {"question": "Nghị định 13/2023 được ban hành ngày nào?", "ground_truth": "Nghị định 13/2023/NĐ-CP được ban hành ngày 17 tháng 4 năm 2023."},
+  {"question": "Công ty DHA Surfaces có mã số thuế là bao nhiêu?", "ground_truth": "Mã số thuế của Công ty Cổ phần DHA Surfaces là 0106769437."},
+  {"question": "Nhân viên được nghỉ phép năm bao nhiêu ngày?", "ground_truth": "Nhân viên chính thức được nghỉ phép năm 12 ngày làm việc mỗi năm."},
+  {"question": "Mật khẩu phải thay đổi sau bao nhiêu ngày?", "ground_truth": "Mật khẩu phải thay đổi mỗi 90 ngày."},
+  {"question": "Thời gian thử việc là bao lâu?", "ground_truth": "Thời gian thử việc là 60 ngày đối với nhân viên chính thức."},
+  {"question": "Thuế GTGT phải nộp trong kỳ Q4/2024 của DHA Surfaces là bao nhiêu?", "ground_truth": "Thuế GTGT còn phải nộp trong kỳ là 52.133.830 đồng."},
+  {"question": "VPN công ty sử dụng giao thức gì?", "ground_truth": "VPN sử dụng giao thức WireGuard với mã hóa AES-256."},
+  {"question": "Tài khoản bị khóa sau bao nhiêu lần nhập sai mật khẩu?", "ground_truth": "Tài khoản sẽ bị khóa sau 5 lần nhập sai liên tiếp."},
+  {"question": "Dữ liệu cá nhân cơ bản bao gồm những gì?", "ground_truth": "Dữ liệu cá nhân cơ bản gồm: họ tên, ngày sinh, giới tính, nơi sinh, quốc tịch, hình ảnh, số điện thoại, CMND, CCCD, hộ chiếu, GPLX, biển số xe, mã số thuế, BHXH, BHYT, tình trạng hôn nhân, quan hệ gia đình, tài khoản số."},
+  {"question": "Dữ liệu cá nhân nhạy cảm gồm những loại nào?", "ground_truth": "Dữ liệu cá nhân nhạy cảm gồm: quan điểm chính trị, tôn giáo; tình trạng sức khỏe; nguồn gốc chủng tộc, dân tộc; đặc điểm di truyền; đặc điểm sinh học; đời sống tình dục; dữ liệu tội phạm; thông tin khách hàng ngân hàng; dữ liệu vị trí; dữ liệu đặc thù khác."},
+  {"question": "Chủ thể dữ liệu có những quyền gì theo Nghị định 13?", "ground_truth": "Chủ thể dữ liệu có 11 quyền: quyền được biết, quyền đồng ý, quyền truy cập, quyền rút lại sự đồng ý, quyền xóa dữ liệu, quyền hạn chế xử lý, quyền cung cấp dữ liệu, quyền phản đối xử lý, quyền khiếu nại tố cáo khởi kiện, quyền yêu cầu bồi thường, quyền tự bảo vệ."},
+  {"question": "Nghị định 13 áp dụng cho đối tượng nào?", "ground_truth": "Nghị định áp dụng cho: cơ quan, tổ chức, cá nhân Việt Nam; cơ quan, tổ chức, cá nhân nước ngoài tại Việt Nam; cơ quan, tổ chức, cá nhân Việt Nam hoạt động tại nước ngoài; cơ quan, tổ chức, cá nhân nước ngoài trực tiếp tham gia hoặc có liên quan đến hoạt động xử lý dữ liệu cá nhân tại Việt Nam."},
+  {"question": "Tổng doanh thu hàng hóa bán ra của DHA Surfaces trong Q4/2024 là bao nhiêu?", "ground_truth": "Tổng doanh thu hàng hóa, dịch vụ bán ra là 3.703.685.610 đồng."},
+  {"question": "Nhân viên có bao nhiêu ngân sách đào tạo mỗi năm?", "ground_truth": "Mỗi nhân viên có ngân sách đào tạo 10 triệu đồng/năm cho các khóa học chuyên môn."},
+  {"question": "Những hành vi nào bị nghiêm cấm trong bảo vệ dữ liệu cá nhân?", "ground_truth": "5 hành vi bị nghiêm cấm: xử lý dữ liệu trái pháp luật; xử lý dữ liệu để chống lại Nhà nước; xử lý dữ liệu gây ảnh hưởng an ninh quốc gia; cản trở hoạt động bảo vệ dữ liệu; lợi dụng bảo vệ dữ liệu để vi phạm pháp luật."},
+  {"question": "Chuyển dữ liệu cá nhân ra nước ngoài được định nghĩa như thế nào?", "ground_truth": "Chuyển dữ liệu cá nhân ra nước ngoài là hoạt động sử dụng không gian mạng, thiết bị, phương tiện điện tử hoặc các hình thức khác chuyển dữ liệu cá nhân của công dân Việt Nam tới một địa điểm nằm ngoài lãnh thổ Việt Nam hoặc sử dụng một địa điểm ngoài lãnh thổ để xử lý dữ liệu cá nhân."},
+  {"question": "Nguyên tắc nào quy định dữ liệu cá nhân không được mua bán?", "ground_truth": "Theo khoản 4 Điều 3: Dữ liệu cá nhân thu thập phải phù hợp và giới hạn trong phạm vi, mục đích cần xử lý. Dữ liệu cá nhân không được mua, bán dưới mọi hình thức, trừ trường hợp luật có quy định khác."},
+  {"question": "Vi phạm quy định bảo vệ dữ liệu cá nhân thì bị xử lý như thế nào?", "ground_truth": "Theo Điều 4: Cơ quan, tổ chức, cá nhân vi phạm quy định bảo vệ dữ liệu cá nhân tùy theo mức độ có thể bị xử lý kỷ luật, xử phạt vi phạm hành chính, xử lý hình sự theo quy định."},
+  {"question": "Đánh giá hiệu suất nhân viên dựa trên tiêu chí nào?", "ground_truth": "Đánh giá hiệu suất dựa trên 4 tiêu chí: hoàn thành KPI (40%), kỹ năng làm việc nhóm (20%), sáng kiến cải tiến (20%), và tuân thủ nội quy (20%)."},
+  {"question": "So sánh giá trị hàng mua vào và bán ra của DHA Surfaces trong Q4/2024, bên nào lớn hơn và chênh lệch bao nhiêu?", "ground_truth": "Giá trị hàng bán ra (3.703.688.610 đồng) lớn hơn giá trị hàng mua vào (2.405.743.241 đồng), chênh lệch 1.297.945.369 đồng."}
 ]

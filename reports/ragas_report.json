@@ -1,0 +1,91 @@
+{
+  "aggregate": {
+    "faithfulness": 0.7263157894736842,
+    "answer_relevancy": 0.6820757704019388,
+    "context_precision": 0.8552631578274124,
+    "context_recall": 0.835
+  },
+  "num_questions": 20,
+  "failures": [
+    {
+      "question": "",
+      "avg_score": 0.2083,
+      "worst_metric": "faithfulness",
+      "score": 0.0,
+      "diagnosis": "LLM hallucinating — câu trả lời chứa thông tin không có trong context",
+      "suggested_fix": "Tighten prompt: chỉ trả lời dựa trên context, lower temperature"
+    },
+    {
+      "question": "",
+      "avg_score": 0.375,
+      "worst_metric": "faithfulness",
+      "score": 0.0,
+      "diagnosis": "LLM hallucinating — câu trả lời chứa thông tin không có trong context",
+      "suggested_fix": "Tighten prompt: chỉ trả lời dựa trên context, lower temperature"
+    },
+    {
+      "question": "",
+      "avg_score": 0.3845,
+      "worst_metric": "context_precision",
+      "score": 0.0,
+      "diagnosis": "Too many irrelevant chunks — context chứa quá nhiều noise",
+      "suggested_fix": "Add reranking hoặc metadata filter để lọc context tốt hơn"
+    },
+    {
+      "question": "",
+      "avg_score": 0.5,
+      "worst_metric": "faithfulness",
+      "score": 0.0,
+      "diagnosis": "LLM hallucinating — câu trả lời chứa thông tin không có trong context",
+      "suggested_fix": "Tighten prompt: chỉ trả lời dựa trên context, lower temperature"
+    },
+    {
+      "question": "",
+      "avg_score": 0.5,
+      "worst_metric": "faithfulness",
+      "score": 0.0,
+      "diagnosis": "LLM hallucinating — câu trả lời chứa thông tin không có trong context",
+      "suggested_fix": "Tighten prompt: chỉ trả lời dựa trên context, lower temperature"
+    },
+    {
+      "question": "",
+      "avg_score": 0.5791,
+      "worst_metric": "context_recall",
+      "score": 0.2,
+      "diagnosis": "Missing relevant chunks — không tìm đủ context liên quan",
+      "suggested_fix": "Improve chunking hoặc thêm BM25 search, tăng top_k"
+    },
+    {
+      "question": "",
+      "avg_score": 0.6953,
+      "worst_metric": "faithfulness",
+      "score": 0.5,
+      "diagnosis": "LLM hallucinating — câu trả lời chứa thông tin không có trong context",
+      "suggested_fix": "Tighten prompt: chỉ trả lời dựa trên context, lower temperature"
+    },
+    {
+      "question": "",
+      "avg_score": 0.8751,
+      "worst_metric": "context_precision",
+      "score": 0.5833,
+      "diagnosis": "Too many irrelevant chunks — context chứa quá nhiều noise",
+      "suggested_fix": "Add reranking hoặc metadata filter để lọc context tốt hơn"
+    },
+    {
+      "question": "",
+      "avg_score": 0.9254,
+      "worst_metric": "context_precision",
+      "score": 0.8333,
+      "diagnosis": "Too many irrelevant chunks — context chứa quá nhiều noise",
+      "suggested_fix": "Add reranking hoặc metadata filter để lọc context tốt hơn"
+    },
+    {
+      "question": "",
+      "avg_score": 0.9296,
+      "worst_metric": "faithfulness",
+      "score": 0.8333,
+      "diagnosis": "LLM hallucinating — câu trả lời chứa thông tin không có trong context",
+      "suggested_fix": "Tighten prompt: chỉ trả lời dựa trên context, lower temperature"
+    }
+  ]
+}
