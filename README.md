@@ -1,3 +1,81 @@
+# Lab 24 — Full Evaluation & Guardrail System
+
+## Overview
+
+This repository extends the Day 18 Vietnamese Production RAG pipeline into a Lab 24 evaluation and guardrail stack. It includes synthetic test-set generation, RAGAS evaluation, LLM-as-Judge calibration, input/output guardrails, adversarial testing, latency benchmarks, and a production blueprint.
+
+The system uses the existing Day 18 corpus and RAG implementation as the base application, then adds production-readiness layers around it: CI eval gates, failure clustering, judge bias checks, PII redaction, topic validation, prompt-injection checks, output safety checks, and async audit logging.
+
+## Setup
+
+```bash
+pip install -r requirements.txt
+copy .env.example .env
+```
+
+Set `OPENAI_API_KEY` in `.env` for real RAGAS and LLM-as-Judge runs. Optional: set `GROQ_API_KEY` for Llama Guard 3 API output checks. Without these keys, scripts keep fallback behavior for local smoke testing, but real scoring is preferred for submission.
+
+## Lab 24 Results Summary
+
+### Phase A: RAGAS
+
+- Test set: 50 questions, distributed as 25 simple, 12 reasoning, 13 multi-context.
+- Faithfulness: 0.9556
+- Answer Relevancy: 0.8437
+- Context Precision: 0.9100
+- Context Recall: 1.0000
+- Results: `phase-a/ragas_results.csv`
+- Failure analysis: `phase-a/failure_analysis.md`
+- Cost: see OpenAI usage dashboard for exact run cost.
+
+### Phase B: LLM-as-Judge
+
+- Pairwise judge: 30 questions with swap-and-average.
+- Absolute scoring: 4 dimensions, 1-5 scale.
+- Cohen's kappa vs calibration labels: 1.000 on 10 samples.
+- Bias report: `phase-b/judge_bias_report.md`
+
+### Phase C: Guardrails
+
+- Topic validator accuracy: 95%
+- Topic refuse rate: 55% on the balanced topic test set.
+- Adversarial detection rate: 100% on 20 attacks.
+- False positive rate: 10% on 10 legitimate queries.
+- L1 Input Guard P95: 8.221 ms
+- L3 Output Guard P95: 0.651 ms
+- Total P95: 9184.899 ms, bottleneck is L2 RAG/LLM generation.
+
+### Phase D: Blueprint
+
+- Production blueprint: `phase-d/blueprint.md`
+- Includes SLOs, architecture diagram, alert playbooks, and monthly cost estimate.
+
+## Commands
+
+```bash
+python scripts/generate_testset.py --size 50
+python scripts/run_eval.py
+python scripts/run_judge.py --limit 30
+python scripts/kappa_analysis.py
+python phase-c/full_pipeline.py
+```
+
+For offline smoke tests:
+
+```bash
+set LAB24_OFFLINE=1
+python scripts/run_eval.py
+```
+
+## Demo Video Checklist
+
+1. Show `phase-a/ragas_summary.json` and a short eval run.
+2. Show `phase-b/pairwise_results.csv` and `phase-b/kappa_analysis.md`.
+3. Show guardrail artifacts: PII, adversarial tests, latency benchmark.
+4. Show `phase-d/blueprint.md` architecture and SLO table.
+
+---
+
 # Lab 18: Production RAG Pipeline
 
 **AICB-P2T3 · Ngày 18 · Production RAG**  

@@ -1,0 +1,11 @@
+input,output,pii_found,latency_ms
+"Hi, I'm John Smith from Microsoft. Email: john@ms.com","Hi, I'm John Smith from Microsoft. Email: [EMAIL]",True,0.277
+"Call me at +1-555-1234 or visit 123 Main Street, NYC","Call me at +1-555-1234 or visit 123 Main Street, NYC",False,0.015
+Số CCCD của tôi là 012345678901,Số CCCD của tôi là [CCCD],True,0.019
+Liên hệ qua 0987654321 hoặc tax 0123456789-001,Liên hệ qua [PHONE_VN] hoặc tax [PHONE_VN]-001,True,0.012
+"Customer Nguyễn Văn A, CCCD 098765432101, phone 0912345678","Customer Nguyễn Văn A, CCCD [CCCD], phone [PHONE_VN]",True,0.012
+,,False,0.004
+Just a normal question,Just a normal question,False,0.007
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA,False,0.401
+Lý Văn Bình ở 123 Lê Lợi,Lý Văn Bình ở 123 Lê Lợi,False,0.011
+tax_code:0123456789-001 cccd:012345678901,tax_code:[PHONE_VN]-001 cccd:[CCCD],True,0.01

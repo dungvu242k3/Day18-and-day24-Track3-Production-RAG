@@ -1,0 +1,37 @@
+name: RAG Eval Gate
+
+on:
+  pull_request:
+    branches: [main]
+
+jobs:
+  eval:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Generate test set
+        run: python scripts/generate_testset.py --size 50
+
+      - name: Run RAGAS evaluation gate
+        run: python scripts/run_eval.py --threshold faithfulness=0.85 --threshold answer_relevancy=0.80 --threshold context_precision=0.70 --threshold context_recall=0.75
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+
+      - name: Upload RAGAS report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ragas-report
+          path: |
+            phase-a/ragas_results.csv
+            phase-a/ragas_summary.json
+            phase-a/failure_analysis.md

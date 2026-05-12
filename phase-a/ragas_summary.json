@@ -1,0 +1,11 @@
+{
+  "scoring_mode": "ragas",
+  "num_questions": 50,
+  "aggregate": {
+    "faithfulness": 0.9556,
+    "answer_relevancy": 0.8437,
+    "context_precision": 0.91,
+    "context_recall": 1.0
+  },
+  "estimated_total_cost_usd": "see OpenAI usage dashboard"
+}

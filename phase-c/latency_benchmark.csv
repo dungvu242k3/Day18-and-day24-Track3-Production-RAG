@@ -1,0 +1,101 @@
+request_id,query,allowed,L1_ms,L2_ms,L3_ms,total_ms,answer_preview
+1,Nghị định 13 được ban hành ngày nào?,True,4.987,11083.962,0.215,11089.164,13. # Nghị định 13/2023/NĐ-CP — Bảo vệ dữ liệu cá nhân
+2,Nhân viên được nghỉ phép năm bao nhiêu ngày?,True,1.356,9032.551,0.436,9034.343,Nhân viên chính thức được nghỉ phép năm 12 ngày làm việc mỗi năm. ### Nghỉ phép năm
+3,VPN công ty sử dụng giao thức gì?,True,1.052,8985.7,0.46,8987.212,VPN sử dụng giao thức WireGuard với mã hóa AES-256. Cấm sử dụng VPN cá nhân để truy cập mạng công ty.
+4,RAGAS faithfulness là gì?,True,1.068,9067.921,0.259,9069.248,Chủ thể dữ liệu là cá nhân được dữ liệu cá nhân phản ánh. Thời gian thử việc là 60 ngày đối với nhân viên chính thức.
+5,Guardrail PII cần chặn thông tin nào?,True,1.109,8951.637,0.668,8953.414,"## An toàn thông tin c) Thông tin liên quan đến nguồn gốc chủng tộc, nguồn gốc dân tộc;"
+6,Nghị định 13 được ban hành ngày nào?,True,1.762,9035.874,0.489,9038.125,13. # Nghị định 13/2023/NĐ-CP — Bảo vệ dữ liệu cá nhân
+7,Nhân viên được nghỉ phép năm bao nhiêu ngày?,True,1.156,8995.564,0.371,8997.091,Nhân viên chính thức được nghỉ phép năm 12 ngày làm việc mỗi năm. ### Nghỉ phép năm
+8,VPN công ty sử dụng giao thức gì?,True,0.825,8725.702,0.381,8726.908,VPN sử dụng giao thức WireGuard với mã hóa AES-256. Cấm sử dụng VPN cá nhân để truy cập mạng công ty.
+9,RAGAS faithfulness là gì?,True,0.981,8816.305,0.472,8817.758,Chủ thể dữ liệu là cá nhân được dữ liệu cá nhân phản ánh. Thời gian thử việc là 60 ngày đối với nhân viên chính thức.
+10,Guardrail PII cần chặn thông tin nào?,True,0.902,8847.907,0.65,8849.46,"## An toàn thông tin c) Thông tin liên quan đến nguồn gốc chủng tộc, nguồn gốc dân tộc;"
+11,Nghị định 13 được ban hành ngày nào?,True,1.255,8967.762,0.34,8969.357,13. # Nghị định 13/2023/NĐ-CP — Bảo vệ dữ liệu cá nhân
+12,Nhân viên được nghỉ phép năm bao nhiêu ngày?,True,1.394,8882.819,0.499,8884.712,Nhân viên chính thức được nghỉ phép năm 12 ngày làm việc mỗi năm. ### Nghỉ phép năm
+13,VPN công ty sử dụng giao thức gì?,True,1.022,8771.113,0.365,8772.5,VPN sử dụng giao thức WireGuard với mã hóa AES-256. Cấm sử dụng VPN cá nhân để truy cập mạng công ty.
+14,RAGAS faithfulness là gì?,True,0.984,8926.615,0.405,8928.004,Chủ thể dữ liệu là cá nhân được dữ liệu cá nhân phản ánh. Thời gian thử việc là 60 ngày đối với nhân viên chính thức.
+15,Guardrail PII cần chặn thông tin nào?,True,0.912,8847.365,0.372,8848.649,"## An toàn thông tin c) Thông tin liên quan đến nguồn gốc chủng tộc, nguồn gốc dân tộc;"
+16,Nghị định 13 được ban hành ngày nào?,True,0.821,8964.31,0.427,8965.559,13. # Nghị định 13/2023/NĐ-CP — Bảo vệ dữ liệu cá nhân
+17,Nhân viên được nghỉ phép năm bao nhiêu ngày?,True,0.975,8848.356,0.467,8849.798,Nhân viên chính thức được nghỉ phép năm 12 ngày làm việc mỗi năm. ### Nghỉ phép năm
+18,VPN công ty sử dụng giao thức gì?,True,1.073,8791.745,0.376,8793.193,VPN sử dụng giao thức WireGuard với mã hóa AES-256. Cấm sử dụng VPN cá nhân để truy cập mạng công ty.
+19,RAGAS faithfulness là gì?,True,0.929,8796.687,0.431,8798.047,Chủ thể dữ liệu là cá nhân được dữ liệu cá nhân phản ánh. Thời gian thử việc là 60 ngày đối với nhân viên chính thức.
+20,Guardrail PII cần chặn thông tin nào?,True,0.792,8781.236,0.436,8782.464,"## An toàn thông tin c) Thông tin liên quan đến nguồn gốc chủng tộc, nguồn gốc dân tộc;"
+21,Nghị định 13 được ban hành ngày nào?,True,0.954,8869.124,0.36,8870.437,13. # Nghị định 13/2023/NĐ-CP — Bảo vệ dữ liệu cá nhân
+22,Nhân viên được nghỉ phép năm bao nhiêu ngày?,True,0.799,9095.265,0.401,9096.465,Nhân viên chính thức được nghỉ phép năm 12 ngày làm việc mỗi năm. ### Nghỉ phép năm
+23,VPN công ty sử dụng giao thức gì?,True,0.868,9009.238,0.351,9010.457,VPN sử dụng giao thức WireGuard với mã hóa AES-256. Cấm sử dụng VPN cá nhân để truy cập mạng công ty.
+24,RAGAS faithfulness là gì?,True,0.869,9086.52,0.586,9087.975,Chủ thể dữ liệu là cá nhân được dữ liệu cá nhân phản ánh. Thời gian thử việc là 60 ngày đối với nhân viên chính thức.
+25,Guardrail PII cần chặn thông tin nào?,True,1.03,8945.24,0.361,8946.631,"## An toàn thông tin c) Thông tin liên quan đến nguồn gốc chủng tộc, nguồn gốc dân tộc;"
+26,Nghị định 13 được ban hành ngày nào?,True,0.843,8826.767,0.41,8828.02,13. # Nghị định 13/2023/NĐ-CP — Bảo vệ dữ liệu cá nhân
+27,Nhân viên được nghỉ phép năm bao nhiêu ngày?,True,0.889,8789.336,0.392,8790.618,Nhân viên chính thức được nghỉ phép năm 12 ngày làm việc mỗi năm. ### Nghỉ phép năm
+28,VPN công ty sử dụng giao thức gì?,True,0.889,8943.386,0.481,8944.756,VPN sử dụng giao thức WireGuard với mã hóa AES-256. Cấm sử dụng VPN cá nhân để truy cập mạng công ty.
+29,RAGAS faithfulness là gì?,True,0.877,8935.82,0.364,8937.061,Chủ thể dữ liệu là cá nhân được dữ liệu cá nhân phản ánh. Thời gian thử việc là 60 ngày đối với nhân viên chính thức.
+30,Guardrail PII cần chặn thông tin nào?,True,0.861,8965.195,0.396,8966.452,"## An toàn thông tin c) Thông tin liên quan đến nguồn gốc chủng tộc, nguồn gốc dân tộc;"
+31,Nghị định 13 được ban hành ngày nào?,True,1.158,9021.604,0.422,9023.184,13. # Nghị định 13/2023/NĐ-CP — Bảo vệ dữ liệu cá nhân
+32,Nhân viên được nghỉ phép năm bao nhiêu ngày?,True,0.943,9146.911,0.412,9148.266,Nhân viên chính thức được nghỉ phép năm 12 ngày làm việc mỗi năm. ### Nghỉ phép năm
+33,VPN công ty sử dụng giao thức gì?,True,0.873,9059.901,0.369,9061.143,VPN sử dụng giao thức WireGuard với mã hóa AES-256. Cấm sử dụng VPN cá nhân để truy cập mạng công ty.
+34,RAGAS faithfulness là gì?,True,0.882,8723.967,0.228,8725.077,Chủ thể dữ liệu là cá nhân được dữ liệu cá nhân phản ánh. Thời gian thử việc là 60 ngày đối với nhân viên chính thức.
+35,Guardrail PII cần chặn thông tin nào?,True,0.986,8759.538,0.378,8760.901,"## An toàn thông tin c) Thông tin liên quan đến nguồn gốc chủng tộc, nguồn gốc dân tộc;"
+36,Nghị định 13 được ban hành ngày nào?,True,0.807,8762.413,0.376,8763.595,13. # Nghị định 13/2023/NĐ-CP — Bảo vệ dữ liệu cá nhân
+37,Nhân viên được nghỉ phép năm bao nhiêu ngày?,True,0.849,8862.422,0.396,8863.667,Nhân viên chính thức được nghỉ phép năm 12 ngày làm việc mỗi năm. ### Nghỉ phép năm
+38,VPN công ty sử dụng giao thức gì?,True,0.849,8913.616,0.385,8914.851,VPN sử dụng giao thức WireGuard với mã hóa AES-256. Cấm sử dụng VPN cá nhân để truy cập mạng công ty.
+39,RAGAS faithfulness là gì?,True,0.843,8914.811,0.473,8916.127,Chủ thể dữ liệu là cá nhân được dữ liệu cá nhân phản ánh. Thời gian thử việc là 60 ngày đối với nhân viên chính thức.
+40,Guardrail PII cần chặn thông tin nào?,True,0.902,8857.068,0.387,8858.357,"## An toàn thông tin c) Thông tin liên quan đến nguồn gốc chủng tộc, nguồn gốc dân tộc;"
+41,Nghị định 13 được ban hành ngày nào?,True,0.934,8943.614,0.492,8945.041,13. # Nghị định 13/2023/NĐ-CP — Bảo vệ dữ liệu cá nhân
+42,Nhân viên được nghỉ phép năm bao nhiêu ngày?,True,1.076,9016.865,0.393,9018.335,Nhân viên chính thức được nghỉ phép năm 12 ngày làm việc mỗi năm. ### Nghỉ phép năm
+43,VPN công ty sử dụng giao thức gì?,True,0.912,8780.084,0.367,8781.364,VPN sử dụng giao thức WireGuard với mã hóa AES-256. Cấm sử dụng VPN cá nhân để truy cập mạng công ty.
+44,RAGAS faithfulness là gì?,True,0.847,8871.932,0.406,8873.184,Chủ thể dữ liệu là cá nhân được dữ liệu cá nhân phản ánh. Thời gian thử việc là 60 ngày đối với nhân viên chính thức.
+45,Guardrail PII cần chặn thông tin nào?,True,0.986,8681.772,0.387,8683.145,"## An toàn thông tin c) Thông tin liên quan đến nguồn gốc chủng tộc, nguồn gốc dân tộc;"
+46,Nghị định 13 được ban hành ngày nào?,True,0.822,8848.86,0.432,8850.114,13. # Nghị định 13/2023/NĐ-CP — Bảo vệ dữ liệu cá nhân
+47,Nhân viên được nghỉ phép năm bao nhiêu ngày?,True,0.956,8845.67,0.424,8847.05,Nhân viên chính thức được nghỉ phép năm 12 ngày làm việc mỗi năm. ### Nghỉ phép năm
+48,VPN công ty sử dụng giao thức gì?,True,0.909,8800.83,0.4,8802.14,VPN sử dụng giao thức WireGuard với mã hóa AES-256. Cấm sử dụng VPN cá nhân để truy cập mạng công ty.
+49,RAGAS faithfulness là gì?,True,0.83,8855.983,0.375,8857.188,Chủ thể dữ liệu là cá nhân được dữ liệu cá nhân phản ánh. Thời gian thử việc là 60 ngày đối với nhân viên chính thức.
+50,Guardrail PII cần chặn thông tin nào?,True,0.911,8885.189,0.377,8886.477,"## An toàn thông tin c) Thông tin liên quan đến nguồn gốc chủng tộc, nguồn gốc dân tộc;"
+51,Nghị định 13 được ban hành ngày nào?,True,0.793,8849.28,0.358,8850.431,13. # Nghị định 13/2023/NĐ-CP — Bảo vệ dữ liệu cá nhân
+52,Nhân viên được nghỉ phép năm bao nhiêu ngày?,True,0.964,8759.64,0.402,8761.007,Nhân viên chính thức được nghỉ phép năm 12 ngày làm việc mỗi năm. ### Nghỉ phép năm
+53,VPN công ty sử dụng giao thức gì?,True,0.836,8942.877,0.448,8944.16,VPN sử dụng giao thức WireGuard với mã hóa AES-256. Cấm sử dụng VPN cá nhân để truy cập mạng công ty.
+54,RAGAS faithfulness là gì?,True,0.961,8895.286,0.474,8896.722,Chủ thể dữ liệu là cá nhân được dữ liệu cá nhân phản ánh. Thời gian thử việc là 60 ngày đối với nhân viên chính thức.
+55,Guardrail PII cần chặn thông tin nào?,True,0.975,8883.578,0.392,8884.945,"## An toàn thông tin c) Thông tin liên quan đến nguồn gốc chủng tộc, nguồn gốc dân tộc;"
+56,Nghị định 13 được ban hành ngày nào?,True,0.897,9026.538,0.48,9027.914,13. # Nghị định 13/2023/NĐ-CP — Bảo vệ dữ liệu cá nhân
+57,Nhân viên được nghỉ phép năm bao nhiêu ngày?,True,0.986,8879.678,0.389,8881.052,Nhân viên chính thức được nghỉ phép năm 12 ngày làm việc mỗi năm. ### Nghỉ phép năm
+58,VPN công ty sử dụng giao thức gì?,True,0.853,8839.169,0.378,8840.401,VPN sử dụng giao thức WireGuard với mã hóa AES-256. Cấm sử dụng VPN cá nhân để truy cập mạng công ty.
+59,RAGAS faithfulness là gì?,True,1.001,8869.854,0.35,8871.205,Chủ thể dữ liệu là cá nhân được dữ liệu cá nhân phản ánh. Thời gian thử việc là 60 ngày đối với nhân viên chính thức.
+60,Guardrail PII cần chặn thông tin nào?,True,0.819,8861.105,0.417,8862.341,"## An toàn thông tin c) Thông tin liên quan đến nguồn gốc chủng tộc, nguồn gốc dân tộc;"
+61,Nghị định 13 được ban hành ngày nào?,True,0.916,8823.35,0.369,8824.636,13. # Nghị định 13/2023/NĐ-CP — Bảo vệ dữ liệu cá nhân
+62,Nhân viên được nghỉ phép năm bao nhiêu ngày?,True,0.952,8761.925,0.223,8763.101,Nhân viên chính thức được nghỉ phép năm 12 ngày làm việc mỗi năm. ### Nghỉ phép năm
+63,VPN công ty sử dụng giao thức gì?,True,0.928,8747.035,0.412,8748.376,VPN sử dụng giao thức WireGuard với mã hóa AES-256. Cấm sử dụng VPN cá nhân để truy cập mạng công ty.
+64,RAGAS faithfulness là gì?,True,0.865,8840.893,0.211,8841.969,Chủ thể dữ liệu là cá nhân được dữ liệu cá nhân phản ánh. Thời gian thử việc là 60 ngày đối với nhân viên chính thức.
+65,Guardrail PII cần chặn thông tin nào?,True,0.987,8920.014,6.93,8927.931,"## An toàn thông tin c) Thông tin liên quan đến nguồn gốc chủng tộc, nguồn gốc dân tộc;"
+66,Nghị định 13 được ban hành ngày nào?,True,1.321,8856.883,0.363,8858.568,13. # Nghị định 13/2023/NĐ-CP — Bảo vệ dữ liệu cá nhân
+67,Nhân viên được nghỉ phép năm bao nhiêu ngày?,True,0.867,8882.395,5.708,8888.97,Nhân viên chính thức được nghỉ phép năm 12 ngày làm việc mỗi năm. ### Nghỉ phép năm
+68,VPN công ty sử dụng giao thức gì?,True,0.859,8970.29,0.234,8971.383,VPN sử dụng giao thức WireGuard với mã hóa AES-256. Cấm sử dụng VPN cá nhân để truy cập mạng công ty.
+69,RAGAS faithfulness là gì?,True,1.052,8946.777,0.582,8948.411,Chủ thể dữ liệu là cá nhân được dữ liệu cá nhân phản ánh. Thời gian thử việc là 60 ngày đối với nhân viên chính thức.
+70,Guardrail PII cần chặn thông tin nào?,True,9.362,8927.412,0.407,8937.181,"## An toàn thông tin c) Thông tin liên quan đến nguồn gốc chủng tộc, nguồn gốc dân tộc;"
+71,Nghị định 13 được ban hành ngày nào?,True,0.914,8683.162,0.381,8684.457,13. # Nghị định 13/2023/NĐ-CP — Bảo vệ dữ liệu cá nhân
+72,Nhân viên được nghỉ phép năm bao nhiêu ngày?,True,7.276,8738.235,0.407,8745.918,Nhân viên chính thức được nghỉ phép năm 12 ngày làm việc mỗi năm. ### Nghỉ phép năm
+73,VPN công ty sử dụng giao thức gì?,True,0.926,9027.687,0.452,9029.065,VPN sử dụng giao thức WireGuard với mã hóa AES-256. Cấm sử dụng VPN cá nhân để truy cập mạng công ty.
+74,RAGAS faithfulness là gì?,True,7.67,9289.548,0.489,9297.707,Chủ thể dữ liệu là cá nhân được dữ liệu cá nhân phản ánh. Thời gian thử việc là 60 ngày đối với nhân viên chính thức.
+75,Guardrail PII cần chặn thông tin nào?,True,0.959,9197.109,0.336,9198.403,"## An toàn thông tin c) Thông tin liên quan đến nguồn gốc chủng tộc, nguồn gốc dân tộc;"
+76,Nghị định 13 được ban hành ngày nào?,True,6.23,8854.812,0.39,8861.432,13. # Nghị định 13/2023/NĐ-CP — Bảo vệ dữ liệu cá nhân
+77,Nhân viên được nghỉ phép năm bao nhiêu ngày?,True,0.885,8951.959,0.465,8953.308,Nhân viên chính thức được nghỉ phép năm 12 ngày làm việc mỗi năm. ### Nghỉ phép năm
+78,VPN công ty sử dụng giao thức gì?,True,7.061,9117.133,0.528,9124.721,VPN sử dụng giao thức WireGuard với mã hóa AES-256. Cấm sử dụng VPN cá nhân để truy cập mạng công ty.
+79,RAGAS faithfulness là gì?,True,1.707,9182.065,0.416,9184.188,Chủ thể dữ liệu là cá nhân được dữ liệu cá nhân phản ánh. Thời gian thử việc là 60 ngày đối với nhân viên chính thức.
+80,Guardrail PII cần chặn thông tin nào?,True,20.667,8976.936,0.363,8997.966,"## An toàn thông tin c) Thông tin liên quan đến nguồn gốc chủng tộc, nguồn gốc dân tộc;"
+81,Nghị định 13 được ban hành ngày nào?,True,1.047,8955.159,0.396,8956.603,13. # Nghị định 13/2023/NĐ-CP — Bảo vệ dữ liệu cá nhân
+82,Nhân viên được nghỉ phép năm bao nhiêu ngày?,True,6.349,8981.407,0.216,8987.971,Nhân viên chính thức được nghỉ phép năm 12 ngày làm việc mỗi năm. ### Nghỉ phép năm
+83,VPN công ty sử dụng giao thức gì?,True,1.028,9015.421,0.514,9016.964,VPN sử dụng giao thức WireGuard với mã hóa AES-256. Cấm sử dụng VPN cá nhân để truy cập mạng công ty.
+84,RAGAS faithfulness là gì?,True,8.206,8710.163,0.899,8719.267,Chủ thể dữ liệu là cá nhân được dữ liệu cá nhân phản ánh. Thời gian thử việc là 60 ngày đối với nhân viên chính thức.
+85,Guardrail PII cần chặn thông tin nào?,True,1.459,9346.117,0.435,9348.011,"## An toàn thông tin c) Thông tin liên quan đến nguồn gốc chủng tộc, nguồn gốc dân tộc;"
+86,Nghị định 13 được ban hành ngày nào?,True,7.173,8963.497,0.613,8971.283,13. # Nghị định 13/2023/NĐ-CP — Bảo vệ dữ liệu cá nhân
+87,Nhân viên được nghỉ phép năm bao nhiêu ngày?,True,1.459,8997.028,0.487,8998.973,Nhân viên chính thức được nghỉ phép năm 12 ngày làm việc mỗi năm. ### Nghỉ phép năm
+88,VPN công ty sử dụng giao thức gì?,True,7.564,9130.596,0.747,9138.907,VPN sử dụng giao thức WireGuard với mã hóa AES-256. Cấm sử dụng VPN cá nhân để truy cập mạng công ty.
+89,RAGAS faithfulness là gì?,True,1.389,8989.721,0.262,8991.371,Chủ thể dữ liệu là cá nhân được dữ liệu cá nhân phản ánh. Thời gian thử việc là 60 ngày đối với nhân viên chính thức.
+90,Guardrail PII cần chặn thông tin nào?,True,8.507,8957.73,0.525,8966.761,"## An toàn thông tin c) Thông tin liên quan đến nguồn gốc chủng tộc, nguồn gốc dân tộc;"
+91,Nghị định 13 được ban hành ngày nào?,True,1.078,8894.962,0.303,8896.343,13. # Nghị định 13/2023/NĐ-CP — Bảo vệ dữ liệu cá nhân
+92,Nhân viên được nghỉ phép năm bao nhiêu ngày?,True,9.186,8946.027,0.504,8955.717,Nhân viên chính thức được nghỉ phép năm 12 ngày làm việc mỗi năm. ### Nghỉ phép năm
+93,VPN công ty sử dụng giao thức gì?,True,0.995,9155.927,0.248,9157.17,VPN sử dụng giao thức WireGuard với mã hóa AES-256. Cấm sử dụng VPN cá nhân để truy cập mạng công ty.
+94,RAGAS faithfulness là gì?,True,7.56,8943.163,0.439,8951.163,Chủ thể dữ liệu là cá nhân được dữ liệu cá nhân phản ánh. Thời gian thử việc là 60 ngày đối với nhân viên chính thức.
+95,Guardrail PII cần chặn thông tin nào?,True,0.858,8798.041,0.318,8799.217,"## An toàn thông tin c) Thông tin liên quan đến nguồn gốc chủng tộc, nguồn gốc dân tộc;"
+96,Nghị định 13 được ban hành ngày nào?,True,9.749,9128.695,0.373,9138.816,13. # Nghị định 13/2023/NĐ-CP — Bảo vệ dữ liệu cá nhân
+97,Nhân viên được nghỉ phép năm bao nhiêu ngày?,True,0.811,9011.113,0.428,9012.353,Nhân viên chính thức được nghỉ phép năm 12 ngày làm việc mỗi năm. ### Nghỉ phép năm
+98,VPN công ty sử dụng giao thức gì?,True,6.978,8915.88,0.42,8923.278,VPN sử dụng giao thức WireGuard với mã hóa AES-256. Cấm sử dụng VPN cá nhân để truy cập mạng công ty.
+99,RAGAS faithfulness là gì?,True,0.993,8883.26,0.424,8884.677,Chủ thể dữ liệu là cá nhân được dữ liệu cá nhân phản ánh. Thời gian thử việc là 60 ngày đối với nhân viên chính thức.
+100,Guardrail PII cần chặn thông tin nào?,True,6.438,9219.199,0.452,9226.089,"## An toàn thông tin c) Thông tin liên quan đến nguồn gốc chủng tộc, nguồn gốc dân tộc;"

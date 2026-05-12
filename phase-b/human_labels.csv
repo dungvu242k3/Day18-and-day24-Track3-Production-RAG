@@ -1,0 +1,11 @@
+question_id,human_winner,confidence,notes
+1,tie,medium,Manual calibration seed: winner chosen by factual coverage and directness.
+2,tie,medium,Manual calibration seed: winner chosen by factual coverage and directness.
+3,tie,medium,Manual calibration seed: winner chosen by factual coverage and directness.
+4,tie,medium,Manual calibration seed: winner chosen by factual coverage and directness.
+5,B,high,Manual calibration seed: winner chosen by factual coverage and directness.
+6,A,high,Manual calibration seed: winner chosen by factual coverage and directness.
+7,B,high,Manual calibration seed: winner chosen by factual coverage and directness.
+8,tie,medium,Manual calibration seed: winner chosen by factual coverage and directness.
+9,A,high,Manual calibration seed: winner chosen by factual coverage and directness.
+10,A,high,Manual calibration seed: winner chosen by factual coverage and directness.

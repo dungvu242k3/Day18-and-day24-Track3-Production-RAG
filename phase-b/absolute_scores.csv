@@ -1,0 +1,31 @@
+question_id,question,accuracy,relevance,conciseness,helpfulness,overall
+1,Nghị định 13/2023 được ban hành ngày nào?,5,5,5,5,5.0
+2,Công ty DHA Surfaces có mã số thuế là bao nhiêu?,5,5,5,5,5.0
+3,"Theo chính sách nhân sự, nhân viên được nghỉ phép năm bao nhiêu ngày?",5,5,5,5,5.0
+4,Mật khẩu phải thay đổi sau bao nhiêu ngày?,5,5,5,5,5.0
+5,Thời gian thử việc là bao lâu?,3,5,5,4,4.25
+6,Thuế GTGT phải nộp trong kỳ Q4/2024 của DHA Surfaces là bao nhiêu?,5,5,5,5,5.0
+7,VPN công ty sử dụng giao thức gì?,3,4,5,3,3.75
+8,Tài khoản bị khóa sau bao nhiêu lần nhập sai mật khẩu?,5,5,5,5,5.0
+9,Dữ liệu cá nhân cơ bản bao gồm những gì?,5,5,3,5,4.5
+10,Dữ liệu cá nhân nhạy cảm gồm những loại nào?,5,5,4,5,4.75
+11,Chủ thể dữ liệu có những quyền gì theo Nghị định 13?,5,5,4,5,4.75
+12,Nghị định 13 áp dụng cho đối tượng nào?,5,5,4,5,4.75
+13,Tổng doanh thu hàng hóa bán ra của DHA Surfaces trong Q4/2024 là bao nhiêu?,5,5,5,5,5.0
+14,Nhân viên có bao nhiêu ngân sách đào tạo mỗi năm?,4,5,4,4,4.25
+15,Những hành vi nào bị nghiêm cấm trong bảo vệ dữ liệu cá nhân?,5,5,4,5,4.75
+16,Chuyển dữ liệu cá nhân ra nước ngoài được định nghĩa như thế nào?,5,5,4,5,4.75
+17,Nguyên tắc nào quy định dữ liệu cá nhân không được mua bán?,5,5,4,5,4.75
+18,Vi phạm quy định bảo vệ dữ liệu cá nhân thì bị xử lý như thế nào?,5,5,4,5,4.75
+19,Đánh giá hiệu suất nhân viên dựa trên tiêu chí nào?,5,5,4,5,4.75
+20,"So sánh giá trị hàng mua vào và bán ra của DHA Surfaces trong Q4/2024, bên nào lớn hơn và chênh lệch bao nhiêu?",5,5,4,5,4.75
+21,Nghị định 13/2023 được ban hành ngày nào?,5,5,5,5,5.0
+22,Công ty DHA Surfaces có mã số thuế là bao nhiêu?,5,5,5,5,5.0
+23,Nhân viên được nghỉ phép năm bao nhiêu ngày?,5,5,5,5,5.0
+24,Mật khẩu phải thay đổi sau bao nhiêu ngày?,5,5,5,5,5.0
+25,Thời gian thử việc là bao lâu?,3,5,5,4,4.25
+26,"Dựa trên tài liệu, giải thích ý nghĩa thực tế của thông tin sau: Mật khẩu phải thay đổi sau bao nhiêu ngày?",5,5,5,5,5.0
+27,"Dựa trên tài liệu, giải thích ý nghĩa thực tế của thông tin sau: Thời gian thử việc là bao lâu?",5,5,4,5,4.75
+28,"Dựa trên tài liệu, giải thích ý nghĩa thực tế của thông tin sau: Thuế GTGT phải nộp trong kỳ Q4/2024 của DHA Surfaces là bao nhiêu?",5,5,5,5,5.0
+29,"Dựa trên tài liệu, giải thích ý nghĩa thực tế của thông tin sau: VPN công ty sử dụng giao thức gì?",5,5,4,5,4.75
+30,"Dựa trên tài liệu, giải thích ý nghĩa thực tế của thông tin sau: Tài khoản bị khóa sau bao nhiêu lần nhập sai mật khẩu?",5,5,5,5,5.0

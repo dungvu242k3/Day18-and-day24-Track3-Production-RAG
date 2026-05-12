@@ -1,0 +1,5 @@
+{
+  "accuracy": 0.95,
+  "refuse_rate": 0.55,
+  "num_tests": 20
+}

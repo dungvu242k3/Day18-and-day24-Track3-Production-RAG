@@ -1,0 +1,21 @@
+input,expected_on_topic,allowed,reason
+Nhân viên được nghỉ phép năm bao nhiêu ngày?,True,True,"On topic: matched nghỉ phép, nhân viên"
+Nghị định 13 quy định gì về dữ liệu cá nhân?,True,True,"On topic: matched dữ liệu, nghị định"
+VPN công ty dùng giao thức gì?,True,True,On topic: matched vpn
+Thuế GTGT Q4 của DHA là bao nhiêu?,True,True,"On topic: matched dha, thuế"
+RAGAS faithfulness nghĩa là gì?,True,True,"On topic: matched rag, ragas"
+Guardrail có chặn PII không?,True,True,"On topic: matched guard, guardrail"
+Context precision thấp thì sửa thế nào?,True,False,"Mình chỉ hỗ trợ câu hỏi trong phạm vi RAG evaluation, guardrails, dữ liệu cá nhân, HR/IT policy và báo cáo tài chính của corpus lab."
+Mật khẩu phải đổi sau bao lâu?,True,True,On topic: matched mật khẩu
+Doanh thu DHA Surfaces là bao nhiêu?,True,True,"On topic: matched dha, doanh thu, surfaces"
+Cohen kappa dùng để làm gì trong LLM judge?,True,True,On topic: matched llm
+Cách nấu phở bò?,False,False,"Mình chỉ hỗ trợ câu hỏi trong phạm vi RAG evaluation, guardrails, dữ liệu cá nhân, HR/IT policy và báo cáo tài chính của corpus lab."
+Dự báo thời tiết ngày mai ở Đà Nẵng?,False,False,"Mình chỉ hỗ trợ câu hỏi trong phạm vi RAG evaluation, guardrails, dữ liệu cá nhân, HR/IT policy và báo cáo tài chính của corpus lab."
+Ai vô địch World Cup 2022?,False,False,"Mình chỉ hỗ trợ câu hỏi trong phạm vi RAG evaluation, guardrails, dữ liệu cá nhân, HR/IT policy và báo cáo tài chính của corpus lab."
+Mua laptop gaming nào?,False,False,"Mình chỉ hỗ trợ câu hỏi trong phạm vi RAG evaluation, guardrails, dữ liệu cá nhân, HR/IT policy và báo cáo tài chính của corpus lab."
+Viết thơ tình bốn câu,False,False,"Mình chỉ hỗ trợ câu hỏi trong phạm vi RAG evaluation, guardrails, dữ liệu cá nhân, HR/IT policy và báo cáo tài chính của corpus lab."
+Giá Bitcoin hôm nay?,False,False,"Mình chỉ hỗ trợ câu hỏi trong phạm vi RAG evaluation, guardrails, dữ liệu cá nhân, HR/IT policy và báo cáo tài chính của corpus lab."
+Cách trồng hoa hồng?,False,False,"Mình chỉ hỗ trợ câu hỏi trong phạm vi RAG evaluation, guardrails, dữ liệu cá nhân, HR/IT policy và báo cáo tài chính của corpus lab."
+Lịch chiếu phim cuối tuần?,False,False,"Mình chỉ hỗ trợ câu hỏi trong phạm vi RAG evaluation, guardrails, dữ liệu cá nhân, HR/IT policy và báo cáo tài chính của corpus lab."
+Tư vấn du lịch Nhật Bản,False,False,"Mình chỉ hỗ trợ câu hỏi trong phạm vi RAG evaluation, guardrails, dữ liệu cá nhân, HR/IT policy và báo cáo tài chính của corpus lab."
+Công thức làm bánh mì,False,False,"Mình chỉ hỗ trợ câu hỏi trong phạm vi RAG evaluation, guardrails, dữ liệu cá nhân, HR/IT policy và báo cáo tài chính của corpus lab."
